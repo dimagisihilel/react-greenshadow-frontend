@@ -11,11 +11,11 @@ export function MainLayout() {
     };
 
     return (
-        <section className="min-h-screen bg-gradient-to-b from-gray-100 to-white">
-            <SideBar isOpen={isSidebarOpen} />
-            <TopHeader toggleSidebar={toggleSidebar} />
+        <section className="min-h-screen flex flex-col bg-gradient-to-b from-green-200 via-green-400 to-green-600">
+            <SideBar isOpen={isSidebarOpen}/>
+            <TopHeader toggleSidebar={toggleSidebar}/>
             <div className={`md:ml-64 p-6 transition-all`}>
-                <Outlet />
+                <Outlet/>
             </div>
         </section>
     );
