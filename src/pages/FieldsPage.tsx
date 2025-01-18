@@ -10,7 +10,9 @@ export default function FieldsPage() {
                 <SearchBar/>
 
                  {/*Add Button after the Search Bar*/}
-                <AddButton label="Add Field"/>
+                {/*<AddButton label="Add Field"/>*/}
+                <AddButton label="Add Field" onClick={() => console.log("Add field button clicked")} />
+
             </div>
 
              {/*Rest of the page content*/}
