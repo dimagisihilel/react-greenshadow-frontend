@@ -222,7 +222,6 @@ const AddFieldModal = ({ isOpen, onClose, field = null }) => {
             )}
         </>
 
-
     );
 
 }
