@@ -163,7 +163,7 @@ export default function FieldsPage() {
                 <div
                     className="fixed inset-0 z-50 overflow-auto bg-black/50 flex items-center justify-center"> {/* Modal Overlay */}
                     <div
-                        className="bg-amber-50 rounded-lg shadow-2xl max-w-2xl w-full mx-4 sm:mx-8 my-8 relative"> {/* Modal Content */}
+                        className="bg-amber-50 overflow-y-scroll rounded-lg shadow-2xl max-w-lg w-full mx-4 sm:mx-6 my-6 relative max-h-[500px]"> {/* Modal Content */}
                         <div className="p-6 border-b border-gray-300"> {/* Modal Header */}
                             <div className="flex justify-between items-center">
                                 <h4 className="text-2xl font-bold text-green-700 font-itim">Field Details</h4>
