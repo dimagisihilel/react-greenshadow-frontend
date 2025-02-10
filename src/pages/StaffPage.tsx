@@ -72,7 +72,7 @@ export default function StaffPage() {
 
     return (
         <>
-            <h1>fields</h1>
+            <h1>staff</h1>
             <div className="flex justify-center items-center space-x-20 mb-6">
                 {/*Search Bar*/}
                 <SearchBar/>
